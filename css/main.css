@@ -1,0 +1,97 @@
+/*DEVELOPER: Bryan Muhia, IS117-003, Fall, 2024 */
+body {
+    background-color: #343a40;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.navbar {
+    background-color: #212529;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    padding: 5px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #212529;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+.footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+.card {
+    background-color: #495057;
+    color: white;
+    border: none;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.form-control {
+    background-color: #495057;
+    color: white;
+    border: 1px solid #6c757d;
+}
+
+.form-control::placeholder {
+    color: #ced4da;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-height: 40px;
+    }
+
+    .footer {
+        font-size: 0.6rem;
+    }
+
+    .card img {
+        height: 150px;
+    }
+}
+
+a {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+
+ul, ol {
+    margin-left: 20px;
+    line-height: 1.6;
+}
